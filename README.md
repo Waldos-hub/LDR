@@ -1,2 +1,1 @@
 # LDR
-Hola buenas tardes
