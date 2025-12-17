@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Frontend.App",
+            "projectName": "ldr-app"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Frontend.Main",
+            "projectName": "ldr-app"
+        },
+        {
+            "type": "java",
+            "name": "LDR_App",
+            "request": "launch",
+            "mainClass": "Main.java",
+            "vmArgs": "-Dprism.verbose=true -Dsun.java2d.d3d=false --module-path \"${workspaceFolder}/lib/javafx-sdk-17.0.17/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics"
+        }
+    ]
+}
